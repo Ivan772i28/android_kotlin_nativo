@@ -1,0 +1,19 @@
+<!-- activity_recordatorios.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme"
+    android:padding="16dp">
+
+    <TextView
+        android:background="@drawable/border"
+        android:id="@+id/txtre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:text="Recordatorios Guardados:"
+        />
+
+</LinearLayout>

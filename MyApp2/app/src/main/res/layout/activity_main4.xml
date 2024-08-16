@@ -1,0 +1,43 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/theme">
+
+    <EditText
+
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:id="@+id/textm"
+        android:hint="mensaje"
+        android:layout_height="59dp"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="20dp"/>
+    <DatePicker
+        android:background="@drawable/border"
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:spinnersShown="true"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Recordatorio"/>
+    <Button
+        android:id="@+id/btnsig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="revisar datos"/>
+
+</LinearLayout>

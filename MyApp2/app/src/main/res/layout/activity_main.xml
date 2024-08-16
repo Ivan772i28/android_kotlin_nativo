@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="00dp"
+    android:gravity="center_horizontal"
+    android:background="@color/theme"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@color/theme"
+
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="358dp"
+        android:layout_height="61dp"
+        android:background="@drawable/border"
+        android:hint="usuario"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:paddingStart="175dp"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme"
+        />
+
+
+    <EditText
+
+        android:id="@+id/pass"
+
+        android:layout_width="358dp"
+        android:layout_height="61dp"
+        android:hint="contraseña"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="400dp"
+
+        android:padding="20dp"
+        android:paddingBottom="120dp"
+        android:text="acceder"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btngoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
